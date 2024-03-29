@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.top-status-text {
+    font-size: 18px;
+    font-weight: 500px;
+    color:#249D55;
+}
+
+.status-element {
+    max-width: 770px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: #D6EDF6;
+    overflow: hidden;
+}
+
+.status-load {
+    max-width: 18px;
+    height: 12px;
+    border-radius: 30px;
+    background-color: #249D55;
+    background: linear-gradient(#249D55, #41ce7a);
+}
+
+.top-check {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
