@@ -12,11 +12,11 @@ export const Page1 = ()=> {
                 <p>Чтобы размещать задания в сервисе, примите условия <br /> Соглашения Qugo с Заказчиком и выберите “Стать заказчиком” <br /> Чтобы выполнять задания и зарабатывать деньги выберите “Стать <br /> исполнителем”</p>
                 <form>
                     <div className="top-check">
-                        <input type="radio" />
+                        <input type="radio" name='1' />
                         Стать исполнителем
                     </div>
                     <div className="top-check">
-                        <input type="radio" />
+                        <input type="radio" name='1' />
                         Стать заказчиком
                     </div>
                 </form>
